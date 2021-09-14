@@ -1,0 +1,72 @@
+[33mcommit acecd57c84fd2793fec83c93964175f0938fc06f[m[33m ([m[1;36mHEAD -> [m[1;32mstorm[m[33m)[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 22:15:16 2021 +0300
+
+    new 2 line
+
+[33mcommit a9a35a1c1e7f9b159b20b28c602b45d7a23fc390[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 22:14:25 2021 +0300
+
+    new file storm on the branch storm
+
+[33mcommit 601b9a83b1ad4c1907b0cd33d01470e7d9a5fc89[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 22:10:43 2021 +0300
+
+    correct text
+
+[33mcommit 16efb76487d6b17cfc5a22133bfa2e2e016aa806[m
+Merge: 1011976 71971ab
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 21:51:49 2021 +0300
+
+    on the master|MERGING
+
+[33mcommit 101197699569c7f86f4717811c3de1ef0e964cbd[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 21:48:24 2021 +0300
+
+    arrows on master
+
+[33mcommit 71971abce45ae564991e8659d73d63a83b0e1492[m[33m ([m[1;32mfeature[m[33m)[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 21:35:53 2021 +0300
+
+    new file arrows
+
+[33mcommit 366f803779313db6913a9ac2c77618af06ea895c[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 21:27:56 2021 +0300
+
+    more beautiful text
+
+[33mcommit 8ca76197ff31abf444cb1d255c51f7b2066c80d2[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 21:25:54 2021 +0300
+
+    beautiful text
+
+[33mcommit da36b4a76dfd19203695aa8c673b9165d991a7b1[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/feature[m[33m)[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 19:57:30 2021 +0300
+
+    Create .gitignore
+    
+    add gitignore
+
+[33mcommit a23cd0843a4d75130fe1bbe97bfc2de52393d79a[m
+Author: nastyasoloveva <59255516+nastyasoloveva@users.noreply.github.com>
+Date:   Tue Sep 14 19:45:20 2021 +0300
+
+    Update song.txt
+    
+    finish my song
+
+[33mcommit 911757d6fa87ffe7548b17b432af35334f35bb13[m
+Author: Anastasia Soloveva <nastsoloc@gmail.com>
+Date:   Tue Sep 14 19:36:51 2021 +0300
+
+    Create song.txt
+    
+    add first half of my favorite song
