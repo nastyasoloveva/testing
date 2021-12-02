@@ -1,3 +1,4 @@
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -13,7 +14,9 @@ public class WebDriverSvyaznoyTest {
 
     @BeforeMethod(alwaysRun = true)
     public void setupDriver() {
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+        driver = new ChromeDriver(options);
     }
     @Test
     public void testHighlightingUncompletedFieldsInRed() throws InterruptedException {
