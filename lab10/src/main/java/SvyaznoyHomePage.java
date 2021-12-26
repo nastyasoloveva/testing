@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 public class SvyaznoyHomePage  extends AbstractPage  {
     private static final String HOMEPAGE_URL = "https://www.svyaznoy.travel/";
     private static final String SEARCH_BUTTON_XPATH="//*[@id='root']/div[1]/div[1]/button";
-    private static final String CALENDER_PATH="//*[@id=\"root\"]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div/input";
+    private static final String CALENDER_PATH="//*[@id=\'root\']/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div/input";
     private static final String WHERE_PATH="//*[@id='root']/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div/input";
-
+    private static final String TOUR_PATH="//*[@id=\'root\']/div[1]/nav/a[5]";
     public By getField = By.xpath("//*[@id='root']/div[1]/div/div[2]/div[1]/div[1]");
 
     @FindBy(xpath=SEARCH_BUTTON_XPATH)
@@ -20,7 +20,8 @@ public class SvyaznoyHomePage  extends AbstractPage  {
     @FindBy(xpath=WHERE_PATH)
     private WebElement Where;
 
-
+    @FindBy(xpath=TOUR_PATH)
+    private WebElement Tour;
 
     protected SvyaznoyHomePage(WebDriver driver) {
         super(driver);
@@ -42,5 +43,9 @@ public class SvyaznoyHomePage  extends AbstractPage  {
     public SvyaznoyHomePage inputWhere(String where){
         Where.sendKeys(where);
         return this;
+    }
+    public SvyaznoyResultPage clickOnTour(){
+        Tour.click();
+        return new SvyaznoyResultPage(driver);
     }
 }

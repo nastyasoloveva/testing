@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
 
 
+
 public class WebDriverSvyaznoyTest {
     private WebDriver driver;
 
@@ -30,7 +31,7 @@ public class WebDriverSvyaznoyTest {
 
     }
     @Test
-    public void test() throws InterruptedException {
+    public void testFindTickets() throws InterruptedException {
 
         SvyaznoyHomePage svyaznoyHomePage = new SvyaznoyHomePage(driver);
         svyaznoyHomePage.openPage();
@@ -43,4 +44,13 @@ public class WebDriverSvyaznoyTest {
         driver.quit();
 
     }
+    @Test
+    public void everyTourShouldContainsLocation() throws InterruptedException {
+        SvyaznoyHomePage svyaznoyHomePage = new SvyaznoyHomePage(driver);
+        svyaznoyHomePage.openPage();
+        svyaznoyHomePage.clickOnTour();
+        SvyaznoyTourPage svyaznoyTourPage = new SvyaznoyTourPage(driver);
+
+    }
+
 }
